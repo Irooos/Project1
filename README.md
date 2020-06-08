@@ -1,4 +1,3 @@
-# Project1
-Web Development Bootcamp
+# Project1: Web Development Boot Camp
 Shannon McCutcheon
-06/08/2020
+
