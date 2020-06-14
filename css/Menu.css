@@ -1,0 +1,94 @@
+/*Nav Style*/
+#myNavbar {
+    background-color: #ec93ec!important;
+    }   
+    #myNavbar a {
+    color: aquamarine;  
+    }
+    #myNavbar a:hover {
+    background-color:aquamarine!important;         
+}
+
+/*background color*/
+body {
+	background-color: rgb(89, 115, 117)!important;
+}
+
+/*font type*/
+body{
+	font-family: itim;
+}
+ @font-face {
+	font-family:itim;
+	src: url('fonts/caveat.ttf'), format('truetype');
+}
+
+/*paragraph font*/
+p{
+	font-size: 17px; 
+	color: aquamarine; 
+}
+
+/* Donut Names */
+.clrd-font{
+	font-family:itim;
+	font-size: 1em;
+	background: #A73FC3;
+	background: linear-gradient(to right, rgb(100, 24, 94), rgb(204, 67, 204));
+	-webkit-background-clip: text; /*makes text visible on overlay*/
+	-webkit-text-fill-color: transparent;
+}
+.single_portfolio_text {
+	overflow:hidden;
+}
+
+/* image width */
+.single_portfolio_text img{
+	width:100%;
+}
+
+/*image overlays*/
+.single_portfolio_text:hover .portfolio_images_overlay{
+	top:5%;
+	left: 5%;
+}
+.portfolio_images_overlay{
+	width: 90%;
+	height: 90%;
+	background: rgba(208, 124, 216, 0.8);
+	padding: 20px;
+	margin: 0 auto;
+	top: -100%;
+	left: 5%;
+	position: absolute;
+	transition:.6s;
+	
+}
+/*font features for the donut names and box style*/
+.portfolio_images_overlay h6{
+	text-transform: uppercase;
+	color: aquamarine;
+	font-size: 20px;
+	font-weight: 900;
+	border: 2px solid aquamarine;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*font features for the prices*/
+.portfolio_images_overlay .product_price{
+	font-size: 20px;
+	font-weight:bold;
+	line-height:30px;
+}
+/*centers the prices*/
+.portfolio_images_overlay .product_price i{
+    margin-right: -10px;
+}
+
+/*footer*/
+#myFooter {
+    font-size:18px!important;
+    font-family: "Amatic SC", sans-serif!important;
+    font-weight:normal;
+    color:rgb(185, 174, 174);
+}

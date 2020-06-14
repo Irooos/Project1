@@ -11,6 +11,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 
+<!--css-->
+<link rel="stylesheet" href="css/Contact.css">
+
 <!--Bootstrap 3.4-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -27,68 +30,36 @@
 <body>
 <!--Navbar -->
 <div class="w3-top w3-hide-small">
-
-<!--Navbar style-->
- <style>
-    #myNavbar {
-    background-color: #ec93ec!important;
-    }   
-    #myNavbar a {
-      color: aquamarine;  
-    }
-    #myNavbar a:hover {
-      background-color: aquamarine!important;         
-    }
-  </style>
-
 <!--Nav links-->
-<div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
-  <a href="Home.html" class="w3-bar-item w3-button w3-hover-text-purple"><img src="img/donuticon.png" width="50px" height="50px"> Sprinkles Galaxy</img></a>
-  <a href="Menu.html" class="w3-bar-item w3-button w3-hover-text-blue">Menu</a>
-  <a href="Contact.html" class="w3-bar-item w3-button w3-hover-text-blue">Contact</a>
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="Home.html" class="w3-bar-item w3-button w3-hover-text-purple"><img src="img/donuticon.png" width="50px" height="50px"> Sprinkles Galaxy</img></a>
+    <a href="Menu.html" class="w3-bar-item w3-button w3-hover-text-blue">Menu</a>
+    <a href="Contact.html" class="w3-bar-item w3-button w3-hover-text-blue">Contact</a>
   </div>
 </div>
 
 <!-- Contact -->
 <div class="w3-container w3-padding-64 w3-xlarge" id="w3-container">
-
-<!--Font Style for "Contact" and background color-->
-  <style>
-    #w3-container{
-    color:aquamarine!important;    
-    }
-    body{
-    background-color: rgb(89, 115, 117)!important;
-    }
-    </style>
-
-
-
-<div class="w3-content">
-  <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
-  <p>Find your nearest Galaxy! Or call us at 888-888-8888</p>
-  <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, we thank you for visiting us.</p>
-  <form action="/action_page.php" target="_blank">
-
-  <style>
-  #name{
-  color:black!important;
-  }
-  </style>
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom: 20px;">Contact</h1>
+    <p>Find your nearest Galaxy! Or call us at 888-888-8888</p>
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, we thank you for visiting us.</p>
 
 <!--Type boxes/Submit form-->
-  <p><input class="w3-input w3-padding-16 w3-border" type="text" id="name" placeholder="First & Last Name" required name="First Last"></p>
-  <p><input class="w3-input w3-padding-16 w3-border" type="text" id="name" placeholder="Email Address" required name="Email Address"></p>
-  <p><input class="w3-input w3-padding-16 w3-border" type="text" id="name" placeholder="Phone Number" required number="Phone Number"></p>
-  <p><input class="w3-input w3-padding-16 w3-border" type="text" id="name" placeholder="Message \ Special requirements" required name="Message"></p>
-  <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
-  </form>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border w3-text-black" type="name" id="firstname" placeholder="First Name" required="firstname"></p>
+      <p><input class="w3-input w3-padding-16 w3-border w3-text-black" type="name" id="lastname" placeholder="Last Name" required="lastname"></p>
+      <p><input class="w3-input w3-padding-16 w3-border w3-text-black" type="email" id="email" placeholder="Email Address" required="Email Address"></p>
+      <p><input class="w3-input w3-padding-16 w3-border w3-text-black" type="text" id="phone" placeholder="Phone Number" required="Phone Number"></p>
+      <p><input class="w3-input w3-padding-16 w3-border w3-text-black" type="text" id="message" placeholder="Message \ Special requirements" name="Message"></p><br>
+      <p><button class="w3-button w3-green w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
   </div>
-  </div>
+</div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
-  <p>Powered by <a href="https://github.com/Irooos?tab=repositories" title="My Github" target="_blank" class="w3-hover-text-green">My Github</a></p>
+  <a href="https://github.com/Irooos?tab=repositories" id="myFooter" title="My Github" target="_blank" class="w3-hover-text-green">My Github</a>
 </footer>
 <!--End of Footer-->  
 <!--End of Contact page-->

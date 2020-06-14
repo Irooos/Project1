@@ -1,3 +1,34 @@
+/*Nav Style*/
+#myNavbar {
+  background-color: #ec93ec!important;
+  }   
+  #myNavbar a {
+  color: aquamarine;  
+  }
+  #myNavbar a:hover {
+  background-color:aquamarine!important;         
+}
+
+/*Font style for welcome and menu button*/
+#welcome {
+font-size: 150px!important;
+}
+#welcome{
+position: relative;
+top: -300px; /* This will move it up */
+}
+
+#myMenu {
+font-family: "Amatic SC", sans-serif!important;
+font-weight: normal;
+}
+#myMenu {
+position: relative;
+top: -290px;
+left: 70px;
+}
+
+/*font styles for slide 2 & 3*/
 #w3-center{
     font-size: 9em!important; 
     font-weight: bold;
@@ -6,6 +37,7 @@
     -webkit-text-stroke: 1px rgb(139, 29, 125);
 }
 
+/*paragraph styles*/
 p {
     font-family: KalamRegular;
     font-size:40px;
@@ -16,5 +48,11 @@ p{
   -webkit-text-stroke: 1px rgb(244, 247, 246);
 }
 
-
+/*footer*/
+#myFooter {
+  font-size:18px!important;
+  font-family: "Amatic SC", sans-serif!important;
+  font-weight:normal;
+  color:rgb(185, 174, 174);
+}
 
