@@ -1,2 +1,3 @@
-# Prorject01a
- 
+# Project1: Web Development Boot Camp
+Shannon McCutcheon
+
