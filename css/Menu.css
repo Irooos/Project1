@@ -35,8 +35,8 @@ p{
 	font-size: 1em;
 	background: #A73FC3;
 	background: linear-gradient(to right, rgb(100, 24, 94), rgb(204, 67, 204));
-	-webkit-background-clip: text; /*makes text visible on overlay*/
-	-webkit-text-fill-color: transparent;
+	--webkit-background-clip: text; /*makes text visible on overlay*/
+	--webkit-text-fill-color: transparent;
 }
 .single_portfolio_text {
 	overflow:hidden;
